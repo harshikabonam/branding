@@ -1,22 +1,15 @@
 /* navbar */
 .brandlogo{
-    /* width: 20px;  */
-    /* margin-left: 50px; */
     background-color: #0B42FF;
     border-radius: 50%;
-    /* padding: 6px 14px 6px 14px; */
-    /* margin-top: -10px; */
     z-index: 99;
     align-self: center;
-    
 }
 .brand{
-    /* display: flex;
-    flex-direction: row; */
-    /* margin-left: 20px; */
     align-self: center;
     padding: 0 0 0 12px;
     font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 99;
 }
 .button{
@@ -26,7 +19,6 @@
     background-color: rgb(0, 0, 0);
     border:none;
     font-weight: bolder;
-    /* margin-top: -8px; */
     
 }
 .topnav{
@@ -34,8 +26,6 @@
     flex-direction: row;
     color: black;
     font-weight: bold;
- 
-    /* grid-column-gap: 50px 200px; */
     padding-top: 30px;
     padding-bottom: 60px;
     font-family: 'Roboto', sans-serif;
@@ -44,13 +34,8 @@
 }
 .topnavlast{
      display: flex;
-     /* grid-template-columns: auto; */
      flex-direction: row;
-     /* grid-column-gap: 10px; */
-     /* padding-left: 800px; */
-     /* padding-top: 3px; */
      z-index:99;
-     /* margin-right: 170px; */
 }
 .underline:hover {
     border-bottom: 7px solid #FEDD00;
@@ -60,11 +45,12 @@
     cursor: pointer;
     padding-right: 20px;
     align-self: center;
+   
 }
-
 .all
 {
     margin-top: -650px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* backgroundlines */
 .back{
@@ -92,20 +78,18 @@
 .background .dot {
     padding: 11em 7.2em;
     background-image: -webkit-repeating-radial-gradient(center center, #dadbdd, #dadbdd 4px, transparent 0px, transparent 100%);
-    background-image: -moz-repeating-radial-gradient(center center,#dadbdd, #dadbdd 4px, transparent 0px, transparent 100%);
+    /* background-image: -moz-repeating-radial-gradient(center center,#dadbdd, #dadbdd 4px, transparent 0px, transparent 100%);
     background-image: -ms-repeating-radial-gradient(center center, #dadbdd, #dadbdd 4px, transparent 0px, transparent 100%);
-    background-image: repeating-radial-gradient(center center, #dadbdd, #dadbdd 4px, transparent 0px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, #dadbdd, #dadbdd 4px, transparent 0px, transparent 100%); */
     -webkit-background-size: 5px 5px;
     -moz-background-size: 5px 5px;
     background-size: 20px 20px;
     width:27%;
-    /* margin-top: 90px; */
-    /* margin-left:-15px; */
     align-self: flex-start;
-    /* padding: 90px 0 0 -15px; */
     background-color: transparent;
     z-index: -1;
     opacity: 50%;
+    margin-top: 15px;
   }
 .wrapp{
     display: flex;
@@ -135,6 +119,7 @@ flex-wrap: wrap;
     font-weight: bolder;
     color: rgb(0, 0, 0);
     z-index:1;
+   
 }
 
 .content{
@@ -145,7 +130,7 @@ flex-wrap: wrap;
      grid-row-gap: 58px;
      /* margin-left: 15px; */
      /* margin-top: -425px; */
-     margin-top: -400px;
+     margin-top: -420px;
      z-index: 1;
 }
 
@@ -160,7 +145,7 @@ flex-wrap: wrap;
     display: grid;
     grid-template-columns: repeat(2,25px);
     grid-column-gap: 40px;
-    margin-top: 16px;
+    margin-top: 40px;
     margin-left: 50px;
     z-index: 1;
 }
@@ -237,7 +222,9 @@ flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     margin-top: 58px;
+    
 }
+
 
 .work{
    padding: 20px; 
@@ -252,6 +239,7 @@ flex-wrap: wrap;
    align-items: center;
    cursor: pointer;
    z-index: 1;
+   font-size: 17px;
 }
 .tests{
     padding: 10px; 
@@ -266,6 +254,7 @@ flex-wrap: wrap;
     height: 70px;
     cursor: pointer;
     z-index: 1;
+    font-size: 17px;
 }
 .y{
      /* margin-left: 30px; */
@@ -294,77 +283,224 @@ flex-wrap: wrap;
     flex-direction: row;
 
 }
-@media only screen and (min-device-width:1441px) 
+.brandlogo
+    {
+        height: 35px;
+        width: 35px;
+    }
+@media only screen and  (min-device-height:770px) and (max-device-height:1099px)
 {
     .back{
-        grid-template-rows: 820px ;
+        grid-template-rows: 1135px ;   
+    }
+    .all{
+        margin-top: -1050px;
+    }  
+    /* .main{
+        font-size: 180px;
+        width:1500px;
+    }  */
+    .container
+    {
+        margin-top:120px;
+        height: 775px;
+    }
+    .x
+    {
+        padding-top: 500px;
+    }
+    .content
+    {
+        margin-top: -750px;
+    }
+    /* .message{
+        margin-top: -26px;
+        font-size: 28px;
+        width:850px;
+    } */
+    .up
+    {
+        margin-top: -45px;
+    }
+    .background .dot{
+        margin-top: 50px;
+        /* width:110%; */
+        padding: 20em 7.2em;
+        margin-left:-10px;
+    }
+    .heading{
+       margin-top: -250px;
+       
+    }
+    .passage{
+        grid-row-gap: 77px;
+        margin-top: -120px;
+        font-size: 24px; 
+    }
+    .blockquotes{
+        margin-top: -10px;
+        font-size: 30px;
+    }
+    #bg2{
+        margin-top: -22px;
+        height: 180px;
+    }
+    .xy{
+        margin-left: 27px;
+        margin-top:-190px;
+    }
+    .navigators{
+        margin-top: 33px;
+    }
+   
+}
+@media only screen and  (min-device-height:1100px) and (max-device-height:1440px)  
+{
+    .xy{
+        margin-left: 30px;
+        margin-top:160px;
+    }
+    .back{
+        grid-template-rows: 1500px ;
         
     }
     .all{
-        margin-top: -730px;
+        margin-top: -1420px;
+    } 
+    /* .main{
+        font-size: 190px;
+        width:1500px;
+    }   */
+    /* .message{
+        margin-top: -26px;
+        font-size: 28px;
+        width:850px;
+    } */
+    .container
+    {
+        margin-top:230px;
+        height: 1020px;
+    }
+    .sociallogin
+    {
+        margin-top: 110px;
+    }
+   .x{
+        padding-top: 500px;
+    }
+    .content{
+        margin-top: -880px;
+    }
+    /* .message{
+        margin-top: -10px;
+        font-size: 36px;
+        width:1000px;
+    } */
+    .background .dot{
+        margin-top: 120px;
+        /* width:135%; */
+        padding: 23em 7.2em;
+        margin-left:-10px;
+    }
+    .heading{
+       margin-top: -250px;
+       
+    }
+    .passage{
+        grid-row-gap: 117px;
+        margin-top: -120px;
+        font-size: 31px;
+    }
+    .blockquotes{
+        margin-top: 120px;
+        font-size: 35px;
+    }
+    #bg2{
+        margin-top: -15px;
+        height: 210px;
+    }
+    .navigators{
+        /* margin-top: 75px; */
+    }
+   
+}
+@media only screen and  (min-device-width:1921px) and (max-device-width:2560px)  
+{   .brandlogo
+    {
+        height: 55px;
+        width: 55px;
+    }
+    .main{
+        font-size: 183px;
+        width:1500px;
+    }
+    .message{
+        margin-top: -26px;
+        font-size: 28px;
+        width:850px;
     }
     .container
     {
-        width: 480px;
-    height: 520px;
-        /* margin-left: 170px; */
-        margin-top: 78px;
+        width: 780px;
     }
-    .xy{
-        margin-left: 280px;
-        margin-top:180px;
-        flex-grow: 8;
-        
+    .sociallogin
+    {
+        display: grid;
+        grid-column-gap: 80px;
     }
-    .player{
-        width: 45px; 
-        padding: 12px;
+    .logins{
+        width: 85px;
     }
-    .main{
-        font-size: 120px;
-        width:700px;
-    }
-    .content{
-        margin-top: -540px;
-    }
-    .message{
-        font-size: 21px;
-        width:550px;
-        margin-top: -40px;
+    .xy
+    {
+        flex-grow: 8; 
     }
     .background .dot{
-        width:45%;
-        padding: 15em 7.2em;
+        /* margin-top: 50px; */
+        width:110%;
+    }
+    .player{
+        width: 85px; 
+        padding: 14px;
+        border: #FEDD00 5px solid;
+    }
+    .x
+    {
+    align-self: center;
+    padding-left: 650px;
+    z-index: 1; 
+    }
+    
+    .content{
+        margin-left: 20px;
     }
     
     .bg {
-        height: 250px;
-        width: 346px;
+        height: 380px;
+        width: 524px;
     }
     .heading{
 
-        font-size: 34px;
-       margin-left: 32px;
-       margin-top: -180px;
+        font-size: 55px;
+       margin-left: 76px;
+       /* margin-top: -250px; */
     }
     .passage{
-        grid-row-gap: 47px;
-        width: 450px;
-        margin-top: -90px;
-        font-size: 18px;
-        margin-left: 22px;
+       
+        width: 700px;
+        /* margin-top: -120px; */
+       
+        margin-left: 76px;
     }
     .blockquotes{
         font-weight: 700;
         color: #0B42FF;
-        margin-top: -10px;
-        font-size: 22px;
     }
     .navigators{
-        margin-left: -140px;
+        margin-left: -250px;
         display: flex;
         flex-direction: row;
-        margin-top: 15px;
+        /* margin-top: 75px; */
     }
     
     .work{
@@ -374,39 +510,170 @@ flex-wrap: wrap;
        border: none;
        margin: 0;
        font-weight: 600;
-       width: 140px;
-       height:70px;
+       width: 250px;
+       height:120px;
        text-align: center;
-    align-items: center;
+       align-items: center;
+       font-size: 27px;
     }
     .tests{
         padding: 10px;
         border: none;
         margin: 0;
         font-weight: 400;
-        width: 150px;
-        height: 70px;
+        width: 260px;
+        height: 120px;
         text-align: center;
-    align-items: center;
+        align-items: center;
+       font-size: 27px;
     }
     #bg2{
-        width: 100px;
-        height: 100px;
-        margin-left: 230px;
-        margin-top: -20px;
-        border-right-width: 22px;
-        border-bottom-width:22px;
+        width: 210px;
+       
+        margin-left: 310px;
+        /* margin-top: -15px; */
+        border-right-width: 26px;
+        border-bottom-width:26px;
     }
     .underline
     {
-        font-size: 26px;
+        font-size: 35px;
+        padding-right: 50px;
     }
     .button
     {
-        font-size: 26px; 
+        font-size: 35px; 
     }
     .brand{
-        font-size: 36px;
+        font-size: 50px;
+    }
+    .brandlogo
+    {
+        height:45px;
+        width:45px;
+    }
+}
+@media only screen and  (min-device-width:1441px) and (max-device-width:1920px)  
+{   
+    .container
+    {
+        width: 620px;
+        
+    }
+    .main
+    {
+        font-size: 153px;
+        width:1500px;
+    }
+    .sociallogin
+    {
+        display: grid;
+        grid-column-gap: 70px;
+    }
+    .logins
+    {
+        width: 65px;
+    }
+    .message
+    {
+        margin-top: -10px;
+        font-size: 28px;
+        width:700px;
+    }
+    .xy
+    {
+        flex-grow: 8; 
+    }
+    .background .dot
+    {
+        /* margin-top: 50px; */
+        width:85%;
+    }
+    .player{
+        width: 55px; 
+        padding: 14px;
+        border: #FEDD00 5px solid;
+    }
+    .x
+    {
+     align-self: center;
+     padding-left: 450px;
+     z-index: 1; 
+    }
+    .content{
+        margin-left: 20px;
+    }
+    
+    .bg {
+        height: 380px;
+        width: 524px;
+    }
+    .heading
+    {
+        font-size: 55px;
+       margin-left: 59px;
+       /* margin-top: -250px; */
+    }
+    .passage
+    {
+        width: 540px;
+        margin-left: 59px;
+        font-size: 23px;
+    }
+    .blockquotes{
+        font-weight: 700;
+        color: #0B42FF;
+    }
+    .navigators{
+        margin-left: -250px;
+        display: flex;
+        flex-direction: row;
+        /* margin-top: 75px; */
+    }
+    
+    .work{
+       padding: 10px; 
+       color: white;
+       background-color:  #0B42FF;
+       border: none;
+       margin: 0;
+       font-weight: 600;
+       width: 250px;
+       height:120px;
+       text-align: center;
+       align-items: center;
+       font-size: 27px;
+    }
+    .tests{
+        padding: 10px;
+        border: none;
+        margin: 0;
+        font-weight: 400;
+        width: 260px;
+        height: 120px;
+        text-align: center;
+        align-items: center;
+       font-size: 27px;
+    }
+    #bg2{
+        width: 210px;
+        margin-left: 150px;
+        /* margin-top: -15px; */
+        border-right-width: 26px;
+        border-bottom-width:26px;
+    }
+    .underline
+    {
+        font-size: 30px;
+        padding-right: 50px;
+        
+    }
+    .button
+    {
+        font-size: 30px; 
+    }
+    .brand{
+        font-size: 40px;
     }
     .brandlogo{
         height:45px;
@@ -425,10 +692,10 @@ flex-wrap: wrap;
     }
     .container
     {
-        width: 400px;
-    height: 490px;
-        /* margin-left: 170px; */
-        margin-top: 20px;
+        width: 380px;
+        height: 490px;
+        /* margin-left: 10px; */
+        margin-top: 24px;
     }
     .xy{
         margin-left: 30px;
@@ -441,21 +708,27 @@ flex-wrap: wrap;
         padding: 6px;
     }
     .main{
-        font-size: 102px;
+        font-size: 90px;
         width:500px;
+        margin-top:-10px;
     }
     .content{
-        margin-top: -400px;
+      
+        margin-top: -410px;
+        margin-left: 20px;
     }
     .message{
-        font-size: 20px;
-        width:450px;
+        font-size: 15px;
+        width:400px;
         margin-top: -40px;
     }
     .background .dot{
         width:29%;
         padding: 11em 8em;
         background-size: 20px 20px;
+        padding: 11em 7.2em;
+        background-image: -webkit-repeating-radial-gradient(center center, #dadbdd, #dadbdd 4px, transparent 0px, transparent 100%);
+        margin-left: -10px;
     }
     .bg {
         height: 190px;
@@ -463,16 +736,16 @@ flex-wrap: wrap;
     }
     .heading{
 
-        font-size: 32px;
-       margin-left: 30px;
-       margin-top: -160px;
+        font-size: 26px;
+       margin-left: 40px;
+       margin-top: -130px;
     }
     .passage{
-        grid-row-gap: 52px;
+        grid-row-gap: 30px;
         width: 340px;
         margin-top: -80px;
-        font-size: 16px;
-        margin-left: 22px;
+        font-size: 15px;
+        margin-left: 40px;
     }
     .blockquotes{
         font-weight: 700;
@@ -481,10 +754,11 @@ flex-wrap: wrap;
         font-size: 22px;
     }
     .navigators{
-        margin-left: -100px;
+        margin-left: -140px;
         display: flex;
         flex-direction: row;
-        margin-top: 20px;
+        margin-top: 44px;
+      
     }
     
     .work{
@@ -498,6 +772,7 @@ flex-wrap: wrap;
        height: 60px;
        text-align: center;
     align-items: center;
+    
     }
     .tests{
         padding: 10px;
@@ -510,40 +785,39 @@ flex-wrap: wrap;
     align-items: center;
     }
     #bg2{
-        width: 76px;
-        height: 76px;
-        margin-left: 130px;
-        margin-top: 5px;
-        border-right-width: 24px;
-        border-bottom-width:24px;
+        width: 96px;
+        height: 86px;
+        margin-left: 132px;
+        margin-top: 20px;
+        border-right-width: 14px;
+        border-bottom-width:14px;
     }
     .underline
     {
-        font-size: 22px;
+        font-size: 20px;
     }
     .button
     {
-        font-size: 22px; 
+        font-size: 20px; 
     }
     .brand{
-        font-size: 30px; 
+        font-size: 28px; 
     }
 }
 @media only screen and (min-device-width:767px) and (max-device-width:1024px) 
 {
     .back{
         grid-template-rows: 560px ;
-        
     }
     .all{
-        margin-top: -485px;
+        margin-top: -495px;
     }
     .container
     {
-        width: 326px;
-    height: 350px;
+        width: 316px;
+        height: 380px;
         /* margin-left: 170px; */
-        margin-top: 9px;
+        margin-top: 20px;
     }
     .xy{
         margin-left: -120px;
@@ -556,20 +830,23 @@ flex-wrap: wrap;
         padding: 4px;
     }
     .main{
-        font-size: 62px;
+        font-size: 56px;
         width:300px;
     }
     .content{
-        margin-top: -250px;
+        margin-top: -300px;
+        margin-left: 20px;
     }
     .message{
         font-size: 13px;
         width:295px;
         margin-top: -40px;
+
     }
     .background .dot{
         width:2%;
-        padding: 7em 7.2em;
+        padding: 8em 7.2em;
+        margin-left: -10px;
     }
     
     .bg {
@@ -578,28 +855,29 @@ flex-wrap: wrap;
     }
     .heading{
 
-        font-size: 28px;
+        font-size: 24px;
        margin-left: 25px;
        margin-top: -100px;
     }
     .passage{
-        grid-row-gap: 5px;
-        width: 259px;
-        margin-top: -80px;
+        grid-row-gap: 15px;
+        width: 280px;
+        margin-top: -60px;
         font-size: 12px;
-        margin-left: 22px;
+        margin-left: 25px;
     }
     .blockquotes{
         font-weight: 700;
         color: #0B42FF;
         /* margin-top: -10px; */
-        font-size: 12px;
+        font-size: 14px;
     }
     .navigators{
-        margin-left: -100px;
+        margin-left: -122px;
         display: flex;
         flex-direction: row;
         margin-top: 30px;
+        font-size: 24px;
     }
     
     .work{
@@ -609,26 +887,29 @@ flex-wrap: wrap;
        border: none;
        margin: 0;
        font-weight: 600;
-       width: 100px;
-       height: 50px;
+       width: 120px;
+       height: 60px;
        text-align: center;
     align-items: center;
+    font-size: 14px;
     }
     .tests{
         padding: 10px;
         border: none;
         margin: 0;
         font-weight: 400;
-        width: 110px;
-        height: 50px;
+        width: 130px;
+        height: 60px;
         text-align: center;
     align-items: center;
+    font-size: 14px;
+
     }
     #bg2{
-        width: 70px;
-        height: 70px;
-        margin-left: 150px;
-        margin-top: 10px;
+        width: 100px;
+        height: 100px;
+        margin-left: 95px;
+        margin-top:-23px;
         border-right-width: 18px;
         border-bottom-width:18px;
     }
@@ -639,6 +920,9 @@ flex-wrap: wrap;
     .button
     {
         font-size: 18px; 
+    }
+    .brand{
+        font-size: 22px;
     }
 }
 @media only screen and (min-device-width:550px) and (max-device-width:768px)  
@@ -653,7 +937,6 @@ flex-wrap: wrap;
     {
         width: 246px;
     height: 288px;
-        /* margin-left: 170px; */
         margin-top: 68px;
     }
     .xy{
@@ -672,14 +955,16 @@ flex-wrap: wrap;
     }
     .content{
         margin-top: -250px;
+        margin-left: 20px;
     }
     .message{
         font-size: 10px;
         width:300px;
     }
     .background .dot{
-        width:2%;
+        width:5%;
         padding: 7em 7.2em;
+        margin-left: -10px;
     }
     .bg {
         height: 140px;
@@ -701,7 +986,7 @@ flex-wrap: wrap;
     .blockquotes{
         font-weight: 700;
         color: #0B42FF;
-        margin-top: -40px;
+        margin-top: -20px;
         font-size: 12px;
     }
     .navigators{
@@ -712,33 +997,22 @@ flex-wrap: wrap;
     }
     
     .work{
-       padding: 10px; 
-       color: white;
-       background-color:  #0B42FF;
-       border: none;
-       margin: 0;
-       font-weight: 600;
        width: 80px;
        height: 40px;
-       text-align: center;
-    align-items: center;
+       font-size: 10px;
     }
     .tests{
-        padding: 10px;
-        border: none;
-        margin: 0;
-        font-weight: 400;
         width: 90px;
         height: 40px;
-        text-align: center;
-    align-items: center;
+        font-size: 10px;
     }
     #bg2{
-        width: 50px;
-        height: 50px;
-        margin-left: 110px;
-        margin-top: 10px;
-
+        width: 80px;
+        height: 70px;
+        margin-left: 83px;
+        margin-top: -10px;
+        border-right-width: 13px;
+        border-bottom-width:13px;
     }
     .underline
     {
